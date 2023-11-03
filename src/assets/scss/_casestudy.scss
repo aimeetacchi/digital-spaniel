@@ -1,0 +1,100 @@
+.casestudies {
+    overflow-x: hidden;
+
+    &__heading {
+        color: $heading_color_one;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    &__content {
+        font-size: 21px;
+        max-width: 720px;
+        text-align: center;
+        margin: 0 auto;
+    }  
+
+    /* Style for previous arrow */
+    .slick-prev,
+    .slick-next {
+       display: none;
+
+        @media only screen and (min-width: 768px) {
+            display: block;
+            height: 64px;
+            width: 64px;
+            top: 65%!important;
+            background-color: $grey;
+            z-index: 1;
+        }
+    }
+    .slick-prev {
+        @media only screen and (min-width: 768px) {
+            left: 83%;
+
+           &:before {
+            color: $white;
+           }
+        }
+    }
+  
+  /* Style for next arrow */
+   .slick-next {
+        @media only screen and (min-width: 768px) {
+            right: 6%;
+            background-color: $white;
+
+            &:before {
+                color: $grey;
+            }
+        }
+   }
+
+    .casestudy {
+        margin-top: 60px;
+        &__grid {
+            @media only screen and (min-width: 768px) {
+                margin-bottom: 120px;
+                display: flex;
+            }
+        }
+
+        &__item {
+            &--left {
+                @media only screen and (min-width: 768px) {
+                    width: 60%;
+                }
+            }
+
+            &--right {
+                background-color: $heading_color_one;
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                @media only screen and (min-width: 768px) {
+                    width: 40%;
+                    margin: 50px 0;
+                }
+
+                h2 {
+                    margin-top: 0;
+                }
+
+                h2, p, a {
+                    color: $white;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__content {
+            font-size: 18px;
+        }
+    }
+}

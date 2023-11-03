@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "image": "images/dashboard01.png",
+      "title": "Project 1",
+      "description": "Consectetur earum mollitia quis culpa tempore offici. Obcaecati mitem debitis.",
+      "link": "/caseStudy1"
+    },
+    {
+      "id": 2,
+      "image": "images/dashboard01.png",
+      "title": "Project 2",
+      "description": "Qui atque amet illum est perspiciatis assumenda voluptate sed commodi officiis.",
+      "link": "/caseStudy2"
+    },
+    {
+      "id": 3,
+      "image": "images/dashboard01.png",
+      "title": "Project 3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/caseStudy3"
+    }
+  ]
+  

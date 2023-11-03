@@ -1,0 +1,133 @@
+.footer {
+    padding: 100px 0 30px;
+    background-color: $secondary_color;
+
+    .wrapper {
+        justify-content: start;
+    }
+
+    &__heading {
+        font-size: 16px;
+        color: $primary_color;
+        margin-top: 50px;
+        
+        @media only screen and (min-width: 768px) {
+            margin-top: 0;
+        }
+    }
+
+    &__subheading {
+        margin-top: 0;
+        font-size: 38px;
+        @media only screen and (min-width: 768px) {
+            font-size: 48px;
+        }
+    }
+
+    &__content {
+        max-width: 434px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    &__cta {
+        color: $heading_color_one;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: fit-content;
+        
+        &:hover {
+            color: $primary_color;
+        }
+
+        @media only screen and (min-width: 768px) {
+            margin-bottom: 0;
+        }
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            text-transform: uppercase;
+            font-size: 21px;
+            color: $heading_color_one;
+        }
+        a {
+            color: $text_color;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 600;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                color: $grey_blue;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__underline {
+        font-family: $primary_font;
+        border-bottom: 3px solid $primary_color;
+        display: inline-block;
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__right-content {
+        @media only screen and (max-width: 768px) {
+            max-width: 85%;
+            margin: 0 auto;
+        }
+
+        .flex {
+            @media only screen and (max-width: 768px) {
+                flex-wrap: wrap;
+            }
+
+            .item {
+                padding: 0;
+                width: 50%;
+                @media only screen and (min-width: 768px) {
+                    width: 33.333%;
+                }
+            } 
+        }
+    }
+
+    &__text {
+        color: $greyTwo;
+        font-weight: 600;
+        letter-spacing: 0.53px;
+        text-align: center;
+        font-size: 12px;
+        @media only screen and (min-width: 768px) {
+            font-size: 14px;
+            text-align: left;
+        }
+    }
+
+    &__bottom-wrapper {
+        padding-top: 130px;
+        @media only screen and (min-width: 768px) {
+            width: 85%;
+            margin: 0 auto;
+        }
+    }
+
+    &__social {
+        text-align: center;
+        font-size: 12px;
+        @media only screen and (min-width: 768px) {
+            text-align: right;
+            font-size: 14px;
+        }
+    }
+}

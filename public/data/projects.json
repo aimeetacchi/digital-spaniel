@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "image": "images/whellies01.png",
+      "title": "Project 1",
+      "description": "Consectetur earum mollitia quis culpa tempore offici. Obcaecati mitem debitis.",
+      "link": "/project1",
+      "category": ["All", "Web Design"]
+    },
+    {
+      "id": 2,
+      "image": "images/newspaper02.png",
+      "title": "Make Ideas Happen",
+      "description": "A local paper with big ideas needed A sharp new brand to inspire readers.",
+      "link": "/project2",
+      "category": ["All", "Branding"]
+    },
+    {
+      "id": 3,
+      "image": "images/makerek.png",
+      "title": "Project 3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project3",
+      "category": ["All", "Web Design", "Branding"]
+    },
+    {
+        "id": 4,
+        "image": "images/newspaper.png",
+        "title": "Project 4",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "link": "/project4",
+        "category": ["All", "Branding"]
+    },
+    {
+        "id": 5,
+        "image": "images/rider01.png",
+        "title": "Project 5",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "link": "/project5",
+        "category": ["All", "Digital Marketing", "Web Design"]
+    },
+    {
+      "id": 6,
+      "image": "images/makerek.png",
+      "title": "Project 6",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project5",
+      "category": ["All", "Digital Marketing", "Web Design"]
+    },
+    {
+      "id": 7,
+      "image": "images/whellies01.png",
+      "title": "Project 7",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project7",
+      "category": ["All", "Digital Marketing", "Web Design"]
+    },
+    {
+      "id":8,
+      "image": "images/whellies01.png",
+      "title": "Project 8",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project8",
+      "category": ["All", "Digital Marketing", "Web Design"]
+    },
+    {
+      "id": 9,
+      "image": "images/newspaper.png",
+      "title": "Project 9",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project9",
+      "category": ["All", "Digital Marketing", "Web Design"]
+    },
+    {
+      "id": 10,
+      "image": "images/whellies01.png",
+      "title": "Project 10",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "link": "/project10",
+      "category": ["All", "Digital Marketing", "Web Design"]
+    }
+]

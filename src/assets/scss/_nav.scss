@@ -1,0 +1,30 @@
+nav {
+    display: none;
+    margin:0 50px;
+    .nav {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            transition: text-decoration .5s ease-in-out;
+        }
+
+        &__underline {
+            border-bottom: 3px solid transparent;
+            display: inline-block;
+            line-height: 1.5;
+            transition: border-bottom .5s ease-in-out;
+
+            &:hover {
+                border-bottom: 3px solid $white;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        display:block;
+    }
+}

@@ -1,0 +1,50 @@
+.hero {
+    &__heading {
+        font-size: 16px;
+        color: $primary_color;
+        margin-top: 150px;
+        
+        @media only screen and (min-width: 768px) {
+            margin-top: 0;
+        }
+    }
+
+    &__subheading {
+        font-size: 38px;
+        @media only screen and (min-width: 768px) {
+            font-size: 48px;
+        }
+      
+    }
+
+    &__content {
+        max-width: 434px;
+        font-size: 21px;
+        line-height: 1.4;
+        margin-bottom: 50px;
+    }
+
+    &__cta {
+        color: $heading_color_one;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: fit-content;
+        
+        &:hover {
+            color: $primary_color;
+        }
+
+        @media only screen and (min-width: 768px) {
+            margin-bottom: 0;
+        }
+        
+    }
+
+    &__underline {
+        border-bottom: 3px solid $primary_color;
+        display: inline-block;
+        line-height: 1.5;
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
