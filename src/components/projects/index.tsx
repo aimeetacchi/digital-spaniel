@@ -8,6 +8,7 @@ import Project from "../project"
 function Projects() {
   const dispatch = useAppDispatch()
   const { items, loading, error } = useAppSelector((state) => state.projects)
+
   useEffect(() => {
     dispatch(fetchProjects())
   }, [dispatch])
@@ -86,7 +87,6 @@ function Projects() {
             </div>
           </div>
 
-          {/* If you have more items, you can continue the pattern for additional slides */}
           {items.length > 5 && (
             <div className="projects__wrapper">
               <div className="grid-container">
