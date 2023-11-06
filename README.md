@@ -1,6 +1,8 @@
 # Digital Spaniel Webpage
 Uses, React built with Vite, Redux Toolkit, SCSS.
 
+run yarn to install dependencies
+
 ## Scripts
 
 - `dev`/`start` - start dev server and open browser
